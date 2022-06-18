@@ -11,3 +11,5 @@ end
 
 bon = Bonjour.new "Eugene", "28"
 p bon.name
+bon.name = "Felix"
+p bon.name
