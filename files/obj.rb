@@ -5,4 +5,4 @@ class Bonjour
 end
 
 bon = Bonjour.new
-person.name
+bon.sayHello
