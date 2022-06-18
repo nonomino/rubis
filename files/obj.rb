@@ -6,4 +6,5 @@ class Bonjour
 end
 
 bon = Bonjour.new
-bon.sayHello
+bon.name = "Eugene"
+p bon.name
