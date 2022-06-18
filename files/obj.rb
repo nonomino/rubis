@@ -1,6 +1,7 @@
 class Bonjour
+  attr_accessor :name
   def sayHello
-    @greeting
+    "Hello #{@name}"
   end
 end
 
