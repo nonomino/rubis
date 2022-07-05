@@ -1,6 +1,13 @@
 def fibonacci(n)
-fibo = Array.new(n)
-fibo.each { |x| }
+  a = 0
+  b = 1
+  n.times do
+    temp = a
+    a = b
+    b = temp + b
+  end
+  
+  return a
 end
 
-p fibonacci 4
+p fibonacci 50
