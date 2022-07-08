@@ -1,4 +1,6 @@
+#/bin/ruby
 def selSort array
+  ## Selection Sort.
   #n = array.length - 1
   (array.length - 1).times do | i |
     idx = i
