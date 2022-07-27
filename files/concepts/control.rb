@@ -6,6 +6,8 @@ end
 def my_fun
   [1, 2, 3].map do |e|
     return "Hello." if e == 2
-    e
+    p e
   end
 end
+
+p my_fun
