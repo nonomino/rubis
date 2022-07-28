@@ -4,7 +4,7 @@
 end
 
 def my_fun
-  [1, 2, 3].map do |e|
+  [1, 2, 3, 4].map do |e|
     next "Hello." if e == 2
     p e
   end
