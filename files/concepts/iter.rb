@@ -18,3 +18,23 @@ array.each do |item|
   puts item
 end
 
+## Each and collect
+### map
+
+array = [1, 2, 3, 4, 5]
+
+array.map do |item|
+  item ** 2
+end
+
+array
+
+### each...
+
+array = [1, 2, 3, 4, 5]
+
+array.each do |item|
+  item ** 2
+end
+
+array
