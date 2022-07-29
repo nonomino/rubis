@@ -12,29 +12,29 @@ end
 
 ## Iterating over an array
 
-array = ['a', 'b', 'c']
+array0 = ['a', 'b', 'c']
 
-array.each do |item|
+array0.each do |item|
   puts item
 end
 
 ## Each and collect
 ### map
 
-array = [1, 2, 3, 4, 5]
+array1 = [1, 2, 3, 4, 5]
 
-array.map do |item|
+array1.map do |item|
   item ** 2
 end
 
-p array
+p array1
 
 ### each...
 
-array = [1, 2, 3, 4, 5]
+array2 = [1, 2, 3, 4, 5]
 
-array.each do |item|
+array2.each do |item|
   item ** 2
 end
 
-p array
+p array2
