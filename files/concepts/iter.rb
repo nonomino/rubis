@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 ## Even while
 
 x = 0
@@ -7,15 +9,6 @@ while x < 10
     puts x
   end
   x += 1
-end
-
-
-## Iterating over an array
-
-array0 = ['a', 'b', 'c']
-
-array0.each do |item|
-  puts item
 end
 
 ## Each and collect
