@@ -23,3 +23,11 @@ end
 
 p array1
 p array1mod
+
+a = [1, 8, 7, 8, 5, 66, 54]
+
+b = a.collect do | x |
+  (5 * x)
+end
+
+p b
