@@ -22,19 +22,11 @@ end
 ### map
 
 array1 = [1, 2, 3, 4, 5]
+array1mod = Array.new
 
-array1.map do |item|
-  item ** 2
+array1.each do |item|
+  array1mod.append(item ** 2)
 end
 
 p array1
-
-### each...
-
-array2 = [1, 2, 3, 4, 5]
-
-array2.each do |item|
-  item ** 2
-end
-
-p array2
+p array1mod
