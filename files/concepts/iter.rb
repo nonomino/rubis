@@ -27,7 +27,7 @@ array.map do |item|
   item ** 2
 end
 
-array
+p array
 
 ### each...
 
@@ -37,4 +37,4 @@ array.each do |item|
   item ** 2
 end
 
-array
+p array
