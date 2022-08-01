@@ -16,4 +16,3 @@ while true
   print str, "\n"
 end
 print "\n"
-print "\n"
