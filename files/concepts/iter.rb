@@ -30,4 +30,4 @@ b = a.collect do | x |
   (5 * x)
 end
 
-p b
+puts b
