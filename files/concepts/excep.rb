@@ -4,3 +4,7 @@ begin
   puts "Hello"
   raise "Error message using raise raised here..."
 end
+
+begin
+  puts "Hi"
+rescue 
