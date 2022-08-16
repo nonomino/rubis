@@ -10,4 +10,4 @@ def fibbup(n)
   b
 end
 
-p fibbup 55
+p fibbup 38
