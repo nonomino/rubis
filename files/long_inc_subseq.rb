@@ -15,3 +15,5 @@ def longest_incr_subseq(seq)
 
   return l.values.max
 end
+
+longest_incr_subseq [1, 4, 6, 8, 99]
