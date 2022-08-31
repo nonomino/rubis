@@ -1,6 +1,6 @@
 tp = Proc.new { |x| x+2 }
 tp.call(3)
-puts tp
+p tp
 def gen_times(factor)
   Proc.new {|n| n*factor }
 end
