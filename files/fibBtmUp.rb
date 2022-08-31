@@ -10,4 +10,14 @@ def fibbup(n)
   b
 end
 
-p fibbup 38
+p fibbup 3
+
+def fibDyn( n )
+  seed = [0, 1]
+  for i in 2..(n + 1)
+    seed.append(seed[i - 1] + seed[i - 2])
+  end
+  return seed[n]
+end
+
+p fibDyn 9
