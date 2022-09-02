@@ -15,7 +15,7 @@ class BinarySearchTree
 
   # Initialize the Root Node
   def initialize val
-    puts "Initializing with: " + val.to_s
+    puts "Initializing with: " + val.to_s()
     @root = TreeNode.new(val, nil, nil)
   end
 
