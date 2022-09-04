@@ -14,7 +14,7 @@ def ticket(request)
     puts "You got the ticket for #{request}!"
 end
 myclass = MyClass.new
-myclass.move("California")
+myclass.move "California"
 myclass.var = "One"
 myclass.var2 = "Two"
 myclass.vars
