@@ -1,7 +1,7 @@
 puts "Hello there, Matz"
 
 puts if 1 == 1
-      "Hey one!"
+      "Hey one!" # if is also a method!
 else
   "Oh ho!"
 end
