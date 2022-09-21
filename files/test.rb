@@ -98,3 +98,5 @@ print a <=> b; puts ' '
 p 10.to_s(2)
 
 p (7 & 7).to_s(2)
+
+# 
