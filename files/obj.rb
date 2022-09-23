@@ -14,3 +14,4 @@ p bon.name
 bon.name = "Felix"
 p bon.name
 p bon.sayHello
+p bon.method self
