@@ -5,5 +5,5 @@ get '/' do
 end
 
 get '/try/:x' do
-  "Hello #{params['name']}!"
+  "Hello #{params['x']}!"
 end
