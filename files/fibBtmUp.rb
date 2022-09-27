@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 def fibbup(n)
   return 1 if n == 1 or n == 2
   b = Array.new
