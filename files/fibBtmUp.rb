@@ -12,7 +12,7 @@ def fibbup(n)
   b
 end
 
-p fibbup 3
+p fibbup 5
 
 def fibDyn( n )
   seed = [0, 1]
