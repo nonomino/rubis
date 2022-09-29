@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 class TreeNode
   attr_accessor :value, :left, :right
 
