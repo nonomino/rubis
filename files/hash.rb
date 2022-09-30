@@ -1,3 +1,6 @@
 days = Hash.new "Monday"
 months = Hash[ "1" => "January"]
-puts months["1"]
+x = 1
+y = 2
+h = {x:, y:}
+p h
