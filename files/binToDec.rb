@@ -9,4 +9,4 @@ class Binary
 end
 
 p ARGV.to_s
-p Binary.to_decimal('1010')
+p Binary.to_decimal('1011')
