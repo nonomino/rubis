@@ -1,3 +1,4 @@
+#!/bin/ruby
 class MyClass
    attr_accessor :var, :var2, :request, :ticket
 
