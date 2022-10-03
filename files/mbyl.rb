@@ -1,3 +1,5 @@
+#!/binpruby
+
 def test(&myblock)
   yield 1
   yield 2
