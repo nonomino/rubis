@@ -1,4 +1,4 @@
-#!/binpruby
+#!/binRZZby
 
 def test(&myblock)
   yield 1
