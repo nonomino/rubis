@@ -1,4 +1,3 @@
-#Hello world program
 #require 'nokogiri';
 require 'benchmark';
 puts "Hello, World!";
