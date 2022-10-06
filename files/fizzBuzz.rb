@@ -1,3 +1,4 @@
+#!/bin/ruby
 puts "Enter number"
 n = gets.to_i
 a = String.new
