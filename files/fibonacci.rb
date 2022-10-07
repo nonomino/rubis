@@ -6,7 +6,7 @@ def fibonacci(n)
   n.times do
     temp = a
     a = b
-    b = temp + b
+    b += temp
   end
   
   return a
