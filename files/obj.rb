@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 class Bonjour
   attr_accessor :name, :age
   def initialize name, age
