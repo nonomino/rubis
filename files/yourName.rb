@@ -1,3 +1,6 @@
+#!/bin/ruby
+
+
 name = ""
 
 until name.equal? "eugene" do
