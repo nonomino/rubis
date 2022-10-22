@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 def linear_search(array, key)
   array.each_with_index do |current, index|
     return index if current == key
