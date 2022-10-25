@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 def euclid a, b
   while b!=0
     t = b
