@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 days = Hash.new "Monday"
 months = Hash[ "1" => "January"]
 x = 1
