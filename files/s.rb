@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 puts "Hello there, Matz"
 
 puts if 1 == 1
