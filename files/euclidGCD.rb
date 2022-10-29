@@ -1,7 +1,7 @@
 #!/bin/ruby
 
 def euclid a, b
-  while b!=0
+  unless b.equal? 0
     t = b
     b = a % b
     a = t
@@ -9,4 +9,4 @@ def euclid a, b
   a
 end
 
-puts euclid(3,5).to_s
+pp euclid(3,5)
