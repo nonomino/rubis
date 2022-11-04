@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 require 'prime'
 
 def initialize(keys = {})
