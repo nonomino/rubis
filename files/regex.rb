@@ -1,5 +1,5 @@
 #!/bin/ruby
 
-exp = ""
+p /sleep/.match("sleepingbeauty")
 
-exp.
+p /tr/ =~ "trustie"
