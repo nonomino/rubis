@@ -2,4 +2,4 @@
 
 p /sleep/.match("sleepingbeauty")
 
-p /tr/ =~ "trustie"
+p /to/ =~ "tomato"
