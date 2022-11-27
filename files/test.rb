@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 #require 'nokogiri';
 require 'benchmark';
 puts "Hello, World!";
