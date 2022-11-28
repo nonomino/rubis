@@ -8,8 +8,7 @@ def fibonacci(n)
     a = b
     b += temp
   end
-  
-  return a
+  a
 end
 
-p fibonacci 50
+p fibonacci 25
