@@ -1,6 +1,7 @@
 #!/bin/ruby
 
 def merge_sort array
+  # Iterative
   return array if array.length <= 1
 
   mid = array.length / 2
