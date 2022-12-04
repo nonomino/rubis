@@ -1,3 +1,4 @@
+#!/bin/ruby
 class Array
   def columns
     x = map(&:length).max
