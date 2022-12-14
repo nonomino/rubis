@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 puts ("hello world")
 puts "Hello World"
