@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 def longest_incr_subseq(seq)
   l = {}
