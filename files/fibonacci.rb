@@ -1,4 +1,4 @@
-#/bin/ruby
+#/usr/bin/ruby
 
 def fibonacci(n)
   a = 0
