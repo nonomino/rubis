@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 puts "Hello, Enter a phrase...\n"
 string = gets.chomp!
