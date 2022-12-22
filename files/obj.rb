@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 class Bonjour
   attr_accessor :name, :age
