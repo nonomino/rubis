@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 alias    BEGIN    for      unless   def      class
 super    true     or       return   defined? next
