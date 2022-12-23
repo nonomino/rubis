@@ -7,7 +7,7 @@ class Bonjour
     @age = age
   end
   def sayHello
-    "Hello #{@name} of #{@age} years"
+    "Hello #{@name} aged #{@age} years"
   end
 end
 
