@@ -8,7 +8,7 @@ begin
     
 rescue SQLite3::Exception => e 
     
-    puts "Exception occurred"
+    puts "SQLite Exception caught"
     puts e
     
 ensure
