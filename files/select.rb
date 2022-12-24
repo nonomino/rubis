@@ -12,6 +12,6 @@ def selSort array
   p array
 end
 
-hello = [1,6,8,4,2,3]
+hello = [1,6,8,4,2,8]
 selSort hello
 
