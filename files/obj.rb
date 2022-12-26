@@ -11,7 +11,7 @@ class Bonjour
   end
 end
 
-bon = Bonjour.new "Eugene", "25"
+bon = Bonjour.new "Eugene", "28"
 p bon.name
 bon.name = "Felix"
 p bon.name
