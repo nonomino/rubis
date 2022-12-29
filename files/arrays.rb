@@ -3,7 +3,7 @@ val = 2
 nums.each_with_index do | ele, idx |
   nums.delete_at(idx) if nums[idx] == val
 end
-p nums
+puts nums
 
 def array_rem_dups
 end
