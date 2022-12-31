@@ -1,3 +1,4 @@
+#!/bin/ruby
 require 'grell'
 
 crawler = Grell::Crawler.new
