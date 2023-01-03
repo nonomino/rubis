@@ -1,3 +1,4 @@
+#!/bin/ruby
 puts "Enter the string"
 str = gets.chomp
 newstr = ' '
