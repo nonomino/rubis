@@ -22,10 +22,10 @@ def caesar_cipher(string,shift_factor)
     p shifted_string
 end
 
-print "Enter the string to encode : "
+print "Enter string to encode: "
 string = gets.chomp
 
-print "Enter the shift factor for the string : "
+print "Enter shift factor for the string : "
 shift_factor = gets.chomp.to_i
 
 caesar_cipher(string,shift_factor)
