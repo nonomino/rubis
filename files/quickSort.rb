@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 def quicksort(arr)
   return [] if arr.empty?
 
