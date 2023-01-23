@@ -3,7 +3,7 @@
 def quicksort(arr)
   return [] if arr.empty?
 
-  # chose a random pivot value
+  # choose a random pivot value
   pivot = arr.delete_at(rand(arr.size))
   # partition array into 2 arrays and comparing them to each other and eventually returning
   # array with the pivot value sorted
