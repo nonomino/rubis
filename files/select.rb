@@ -1,4 +1,4 @@
-#/bin/ruby
+#/usr/bin/ruby
 def selSort array
   ## Selection Sort.
   #n = array.length - 1
