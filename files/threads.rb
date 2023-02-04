@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 puts "Ruby engine: #{RUBY_ENGINE}, #{RUBY_ENGINE_VERSION}"
 def func1
    i = 0
