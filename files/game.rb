@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 class Player
     attr_accessor :name, :health, :power
     def initialize(n, h, pow)
