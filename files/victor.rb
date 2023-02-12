@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 require 'victor'
 
 svg = Victor::SVG.new viewBox: "0 0 700 70"
