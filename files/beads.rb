@@ -1,8 +1,9 @@
 #!/usr/bin/ruby
+
 class Array
   def columns
     x = map(&:length).max
-    Array.new(x) do |row|
+    Array.new x do |row|
       Array.new(length) { |column| self[column][row] }.compact
     end
   end
