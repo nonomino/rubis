@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
 loop do
-  string = gets
-  puts string
+  str = gets
+  p str
 end
