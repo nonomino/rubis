@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 class Array 
 def my_each
 c = 0 
