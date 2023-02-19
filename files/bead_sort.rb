@@ -11,7 +11,7 @@ end
 
 def bead_sort(array)
   array
-    .map { |element| [1] * element }
+    .map { |ele| [1] * ele }
     .columns
     .columns
     .map(&:length)
