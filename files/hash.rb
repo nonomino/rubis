@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 days = Hash.new "Monday"
 months = Hash[ "1" => "February"]
