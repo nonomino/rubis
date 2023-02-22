@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 CONST = ' out there'
 class Inside_one
    CONST = proc {' in there'}
