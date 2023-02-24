@@ -72,7 +72,7 @@ end
 
 def invmod(e, et)
   g, x = extended_gcd(e, et)
-  raise 'The maths are broken!' if g != 1
+  raise 'The math is broken!' if g != 1
 
   x % et
 end
