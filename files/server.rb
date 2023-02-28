@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 require 'socket'
 
 server = TCPServer.new('localhost' , 80);
