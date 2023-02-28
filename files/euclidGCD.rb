@@ -9,4 +9,5 @@ def euclid a, b
   a
 end
 
-pp euclid(3,5)
+r = euclid(3,5)
+p r
