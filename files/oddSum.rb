@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 a = [5, 7, 8]
 
 def oddSum(a)
