@@ -13,3 +13,7 @@ end
 not_found do
   "Not found!"
 end
+
+error do
+  "Error!"
+end
