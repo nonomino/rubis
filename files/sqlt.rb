@@ -2,6 +2,12 @@
 
 require "sqlite3"
 
-db = SQLite3::Database.open 'test.db'
-db.results_as_hash = true
+begin
+  db = SQLite3::Database.open 'test.db'
+  db.results_as_hash = true
+rescue SQLite3::Exceprion => e
+  puts "Error!"
+ensure
+  db.close if db
+end
 
