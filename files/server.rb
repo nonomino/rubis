@@ -2,7 +2,7 @@
 
 require 'socket'
 
-server = TCPServer.new('localhost' , 8080);
+server = TCPServer.new('localhost' , 5757);
 loop {
     client = server.accept;
     request = client.readpartial(2048);   
