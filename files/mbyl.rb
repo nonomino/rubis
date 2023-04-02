@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!usr/bin/ruby
 
 def test(&myblock)
   yield 1
