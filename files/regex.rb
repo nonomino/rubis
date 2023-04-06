@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 p /sleep/.match "sleepingbeauty"
 p %r{slid}.match "slidingwindow"
