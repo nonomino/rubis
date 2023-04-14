@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 def test
   yield 5
   puts "You are in the method test"
