@@ -19,7 +19,7 @@ def bead_sort(array)
 end
 
 if $0 == __FILE__
-  puts 'Enter a list of numbers separated by space'
+  puts 'Enter a space-seperated list of numbers'
 
   list = gets.split.map(&:to_i)
   p bead_sort(list)
