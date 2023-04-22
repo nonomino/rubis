@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 pass = gets.chomp!
 cnt = pass.count('0123456789')
