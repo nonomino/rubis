@@ -1,7 +1,7 @@
 #/usr/bin/ruby
+
 def selSort array
-  ## Selection Sort.
-  #n = array.length - 1
+  n = array.length - 1
   (array.length - 1).times do | i |
     idx = i
     for j in (i + 1)..(array.length - 1)
@@ -12,6 +12,6 @@ def selSort array
   p array
 end
 
-hello = [1,6,8,4,2,8]
+hello = [1,6,6,0,-6,77,392]
 selSort hello
 
