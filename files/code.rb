@@ -4,7 +4,10 @@ def to_str (s)
   "#{s}"
 end
 
-def pass 
+def loops (a)
+  a.each do
+    ##
+  end
 end
 
 p to_str 55
