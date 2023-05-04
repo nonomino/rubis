@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 def linear_search(array, key)
   array.each_with_index do |current, index|
