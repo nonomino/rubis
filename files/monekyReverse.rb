@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 puts "Before blocking reverse: " +
      "HELLO".reverse
