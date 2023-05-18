@@ -11,7 +11,7 @@ def merge_sort array
   first_array = merge_sort first_array
   second_array = merge_sort second_array
 
-  # merge
+  # merge arrays
   result = []
   until first_array.empty? && second_array.empty?
     if first_array.empty?
