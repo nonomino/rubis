@@ -32,7 +32,7 @@ def merge_sort array
 end
 
 if $0 == __FILE__
-  puts 'Enter a list of numbers separated by space'
+  puts 'Enter a list of numbers separated by spaces'
 
   list = gets.split.map &:to_i
   p merge_sort list
