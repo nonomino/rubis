@@ -1,4 +1,4 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 def get_numbers(list, index = 0, taken = [])
   return [taken] if index == list.size
