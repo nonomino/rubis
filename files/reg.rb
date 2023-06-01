@@ -1,3 +1,3 @@
-#!/bin/ruby
+#!/usr/bin/ruby
 
 "Hello" =~ /lo/
