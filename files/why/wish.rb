@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 include 'endertromb'
 
 class WishMaker
