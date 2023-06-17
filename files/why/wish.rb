@@ -12,7 +12,7 @@ class WishMaker
   end
 
   if @energy.zero?
-    raise Exception, "No energy left."
+    raise Exception, "No more nergy left."
   end
   @energy -= 1
 
