@@ -14,7 +14,7 @@ class WishMaker
   if @energy.zero?
     raise Exception, "No more nergy left."
   end
-  @energy -= 1
+  @energy = @energy - 1
 
   Endertromb::make( wish )
 
